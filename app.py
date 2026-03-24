@@ -599,6 +599,7 @@ with st.sidebar:
     st.markdown("#### 🤖 NVIDIA NIM API")
     nim_api_key = st.text_input(
         "NIM API Key",
+        value="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",  # ← PASTE YOUR NVIDIA NIM API KEY HERE
         type="password",
         help="Get your free API key from build.nvidia.com"
     )
